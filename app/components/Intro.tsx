@@ -25,7 +25,7 @@ const Intro = () => {
       <div className="flex w-full flex-col md:flex-row gap-5 mt-3">
         <button className=" group hover:scale-105 transition flex justify-center items-center border px-4 py-2 gap-1 rounded-full text-xl  bg-[#4999d6] text-white ">
           contact me here{" "}
-          <Link href="#contact">
+          <Link href="#Contact">
             <MdArrowRightAlt className="group-hover:translate-x-2" />
           </Link>{" "}
         </button>

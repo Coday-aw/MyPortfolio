@@ -1,7 +1,6 @@
-import ecommerceStoreImg from "../public/ecommercestore.png";
 import StayBnbImage from "../public/StayBnb.png";
 import movieTrackerImg from "../public/MovieTracker.png";
-import todolistImg from "../public/todolist.png";
+import SnipSaverImg from "../public/SnipSaver.png";
 
 export const links = [
   {
@@ -28,15 +27,6 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "E-Commerce Store",
-    description:
-      " A full-stack e-commerce store for selling electronics. It has features like authentication, cart and more.",
-    tags: ["React", "MongoDB", "Tailwind", "Express", "Redux", "Node"],
-    imageUrl: ecommerceStoreImg,
-    gitHubUrl: "https://github.com/Coday-aw/Ecommerce",
-    demoUrl: "https://movie-tracker-lake.vercel.app/",
-  },
-  {
     title: "StayBnb",
     description:
       "A clone of the popular website Airbnb. It has features like authentication, booking and more.",
@@ -55,13 +45,13 @@ export const projectsData = [
     demoUrl: "https://movie-tracker-lake.vercel.app/",
   },
   {
-    title: "Todo List",
+    title: "Snip Saver",
     description:
-      "A simple todo list app that helps you keep track of all your tasks.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: todolistImg,
-    gitHubUrl: "https://github.com/Coday-aw/To-do-List",
-    demoUrl: "https://github.com/Coday-aw/To-do-List",
+      "Effortlessly organize your code snippets and components in one place.",
+    tags: ["Nextjs", "Tailwind", "TypeScript", "Supabase", "Clerk"],
+    imageUrl: SnipSaverImg,
+    gitHubUrl: "https://github.com/Coday-aw/SnipSaver",
+    demoUrl: "https://snip-saver.vercel.app/",
   },
 ] as const;
 

@@ -36,7 +36,7 @@ export default function RootLayout({
         />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-poppins `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-poppins dark:bg-slate-900 bg-slate-50 dark:text-white text-black `}
       >
         <Conatiner>
           <ThemeProvider

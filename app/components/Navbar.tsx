@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { links } from "../../lib/data";
 import { TbCircleLetterC } from "react-icons/tb";
-import { ModeToggle } from "./toggle-mode";
+import ModeToggle from "./ModeToggle";
 import { motion } from "framer-motion";
 
 const Navbar = () => {

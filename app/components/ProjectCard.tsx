@@ -33,7 +33,7 @@ const ProjectCard = ({
         <Image
           src={imageUrl}
           alt={title}
-          className=" w-[200px] h-[200px]  md:w-[300px] md:h-[200px] object-cover border-r rounded-lg p-2"
+          className=" w-[200px] h-[200px]  md:w-[300px] md:h-[200px] object-contain border-r rounded-lg p-2"
         />
         <div>
           <p className="font-bold text-xl group-hover:text-[#4999d6]">

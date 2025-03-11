@@ -1,6 +1,7 @@
 import StayBnbImage from "../public/StayBnb.png";
 import movieTrackerImg from "../public/MovieTracker.png";
 import SnipSaverImg from "../public/SnipSaver.png";
+import ElectroImg from "../public/electro.png";
 
 export const links = [
   {
@@ -34,6 +35,23 @@ export const projectsData = [
     imageUrl: StayBnbImage,
     gitHubUrl: "https://github.com/Coday-aw/StayBnb",
     demoUrl: "https://stay-bnb-eta.vercel.app/",
+  },
+  {
+    title: "Electro",
+    description:
+      "A fullStack modern e-commerce website that allows users to buy electronic products.",
+    tags: [
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Redux",
+    ],
+    imageUrl: ElectroImg,
+    gitHubUrl: "https://github.com/Coday-aw/Electro/tree/main",
+    demoUrl: "",
   },
   {
     title: "Movie Tracker",

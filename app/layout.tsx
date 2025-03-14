@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { ThemeProvider } from "./components/theme-provider";
 import Head from "next/head";
 import Conatiner from "./components/Conatiner";
 import Footer from "./components/Footer";
@@ -39,17 +38,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-poppins dark:bg-slate-900 bg-slate-50 dark:text-white text-black `}
       >
         <Conatiner>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Navbar />
+          <Navbar />
 
-            {children}
-            <Footer />
-          </ThemeProvider>
+          {children}
+          <Footer />
         </Conatiner>
       </body>
     </html>

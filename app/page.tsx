@@ -1,4 +1,3 @@
-import Contact from "./components/Contact";
 import About from "./components/About";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";

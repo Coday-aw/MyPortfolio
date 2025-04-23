@@ -23,18 +23,25 @@ const Intro = () => {
         applications.
       </p>
       <div className="flex w-full flex-col md:flex-row gap-5 mt-3">
-        <button className=" group hover:scale-105 transition flex justify-center items-center border px-4 py-2 gap-1 rounded-full text-xl  bg-[#4999d6] text-white ">
-          contact me here{" "}
-          <Link href="#Contact">
+        <a
+          href="mailto:Coday-aw@hotmail.com"
+          className=" group hover:scale-105 transition flex justify-center items-center border px-4 py-2 gap-1 rounded-full text-xl  bg-[#4999d6] text-white "
+        >
+          contact me
+          <span>
             <MdArrowRightAlt className="group-hover:translate-x-2" />
-          </Link>{" "}
-        </button>
-        <button className=" group transition hover:scale-105 flex justify-center items-center border px-4 py-2 gap-1 rounded-full text-xl ">
+          </span>{" "}
+        </a>
+        <a
+          href="/CodayAwahmed.pdf"
+          download
+          className=" group transition hover:scale-105 flex justify-center items-center border px-4 py-2 gap-1 rounded-full text-xl "
+        >
           Download CV{" "}
-          <a href="/CV-Coday.pdf" download>
+          <span>
             <AiOutlineDownload className="group-hover:translate-y-1" />
-          </a>{" "}
-        </button>
+          </span>{" "}
+        </a>
         <button className="border transition rounded-full p-4 hover:scale-105 flex justify-center items-center">
           <a
             href="https://www.linkedin.com/in/coday-awahmed-58783628b/"

@@ -11,7 +11,6 @@ function page() {
       <About />
       <Projects />
       <Skills />
-      <Contact />
     </div>
   );
 }

@@ -20,10 +20,6 @@ export const links = [
     title: "Skills",
     href: "#Skills",
   },
-  {
-    title: "Conatct",
-    href: "#Contact",
-  },
 ] as const;
 
 export const projectsData = [

@@ -27,7 +27,7 @@ const ProjectCard = ({
     <motion.div
       ref={ref}
       style={{ scale: scaleProgress, opacity: opacityProgress }}
-      className="flex flex-col gap-5 group border rounded-lg p-5 cursor-pointer hover:shadow-2xl transition"
+      className="flex flex-col gap-5 group border rounded-lg p-5 hover:shadow-2xl transition"
     >
       <div className="flex gap-5">
         <Image
@@ -43,10 +43,10 @@ const ProjectCard = ({
 
           <div className="flex gap-5 items-center mt-10">
             <a href={gitHubUrl} target="_blank">
-              <FaGithub size={25} />
+              <FaGithub className="cursor-pointer" size={25} />
             </a>
             <a href={demoUrl} target="_blank">
-              <FaExternalLinkAlt size={20} />
+              <FaExternalLinkAlt className="cursor-pointer" size={20} />
             </a>
           </div>
         </div>
